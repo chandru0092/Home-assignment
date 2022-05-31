@@ -2,7 +2,7 @@ from redis_helper import *
 
 class PostValues:
     """
-        Retrieve Values from application and check Palindrome or not
+        POst Values to application in key and values format    
     """
     def post_variables(user, messages):
         if len(user) == len(messages):
@@ -34,7 +34,7 @@ class GetValues:
 
 class GetAllValues:
     """
-        Retrieve Values from application and check Palindrome or not
+        Retrieve all the Values from application
     """
     def get_all_variables(retrievevalue):
         #results = None

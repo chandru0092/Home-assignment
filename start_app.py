@@ -1,3 +1,5 @@
+##################### To start the Application #########################
+
 import werkzeug
 werkzeug.cached_property = werkzeug.utils.cached_property
 from flask import Flask
@@ -14,6 +16,7 @@ app.config["RESTPLUS_VALIDATE"] = True
 # Enable or disable the mask field, by default X-Fields
 app.config["RESTPLUS_MASK_SWAGGER"] = False
 
+#Application details
 app_api = Api(
     app,
     title = "MESSAGE APPLICATION",

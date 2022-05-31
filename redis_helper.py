@@ -52,6 +52,7 @@ def del_redis(key):
     except Exception as e:
         raise LookupError("Redis Error: {}".format(e))
 
+#Function to get the keys or values from redis
 def get_all_keys(value):
     if value.upper() == "USERS":
         master_users_list = []
