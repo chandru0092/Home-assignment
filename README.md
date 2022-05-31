@@ -27,11 +27,11 @@ clone repo : git clone {repositary URL}
 
 	Python:
 	=======
-		Python is general programming language.Downloading and Installing Python is free and easy.
+		Python is general programming language and Downloading and Installing Python is free and easy.
 
 	Flask:
 	======
-	    Flask is a popular web framework , meaning it is a third party python Library used for 		developing web applications and API’s.
+		Flask is a popular web framework , meaning it is a third party python Library used for developing web applications and API’s.
 	
 	Flask Rest Plus and Werkzeug:
 	=============================
@@ -41,12 +41,12 @@ clone repo : git clone {repositary URL}
 
 	start_app.py   ----->  Start app file will start the application with host URL and Port .
 	app_helper     ----->  Start app file will use the methods or functions from this file .
-	redis_helper   ----->  Here we have functions and methods to store the values or messages in 							redis engine.
+	redis_helper   ----->  Here we have functions and methods to store the values or messages in redis engine.
 	request_models ----->  This file has all the request models of API 
-							* what are the request parameters 
-							* what type of parameter it is like string, list and dropdown
+				* what are the request parameters 
+				* what type of parameter it is like string, list and dropdown
 	message_namespace -->  This file has Response and API models
-							* what are the response parameters and status codes of API
+				* what are the response parameters and status codes of API
 	test_message_application ---> This file performs unit testing of application API .
 	Dockerfile 		----->  Dockerfile of application with all installation commands
 
@@ -55,22 +55,22 @@ clone repo : git clone {repositary URL}
 
 	After installed all the pre requistes, you can start the application with below command
 
-		-------python start_app.py
+	---python start_app.py
 
 	Once started the application , you will see below output
 
-		PS C:\QlikAssignment> python .\start_app.py
-			* Serving Flask app "start_app" (lazy loading)
-			* Environment: production
-			WARNING: This is a development server. Do not use it in a production deployment.
-			Use a production WSGI server instead.
-			* Debug mode: on
-			* Restarting with stat
-			* Debugger is active!
-			* Debugger PIN: 271-357-746
-			* Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+	PS C:\QlikAssignment> python .\start_app.py
+		* Serving Flask app "start_app" (lazy loading)
+		* Environment: production
+		WARNING: This is a development server. Do not use it in a production deployment.
+		Use a production WSGI server instead.
+		* Debug mode: on
+		* Restarting with stat
+		* Debugger is active!
+		* Debugger PIN: 271-357-746
+		* Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
 	
-	Application URL : http://127.0.0.1:5002/
+	**Application URL : http://127.0.0.1:5002/**
 
 	HTTP Methods:
 	=============
