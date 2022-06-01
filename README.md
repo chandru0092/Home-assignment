@@ -22,6 +22,7 @@ clone repo : git clone {repositary URL}
 		pip install flask==1.1.2
 		pip install flask-restplus
 		pip install Werkzeug==1.0.1
+		pip install redis
 
 # 3. Module/Library Explanations
 
@@ -36,6 +37,10 @@ clone repo : git clone {repositary URL}
 	Flask Rest Plus and Werkzeug:
 	=============================
 		Flask-RESTPlus and Werkzeug is an extension for Flask which encourages best practices with minimal setup. It provides a collection of decorators and tools to describe API and expose its documentation using Swagger. 
+	
+	Redis:
+	=======
+		Redis is python client database and stores value in key-value format.
 
 # 4. Files
 
